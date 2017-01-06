@@ -12,4 +12,4 @@ RUN cp ./json-serde/target/json-serde*SNAPSHOT.jar ./json-serde.jar
 RUN cp ./json/target/json*SNAPSHOT.jar ./json.jar
 RUN cp ./json-serde-cdh5-shim/target/json-serde*SNAPSHOT.jar json-serde-shim.jar
 
-RUN echo "spark.jars /serde/json-serde.jar,/serde/json.jar,json-serde-shim.jar" >> /spark/conf/spark-defaults.conf
+RUN echo "spark.jars /serde/json-serde.jar,/serde/json.jar,/serde/json-serde-shim.jar" >> /spark/conf/spark-defaults.conf
