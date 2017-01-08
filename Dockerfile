@@ -1,4 +1,4 @@
-FROM epahomov/docker-zeppelin:latest
+FROM epahomov/docker-zeppelin:zep_0.6-SNAPSHOT_spark_2.0_hadoop2_2.6
 
 MAINTAINER Pakhomov Egor <pahomov.egor@gmail.com>
 
